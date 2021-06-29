@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#8BC34A"
+    android:orientation="vertical"
+    android:weightSum="4.3"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:background="#079527">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="18.41dp"
+            android:layout_height="15.41dp"
+            android:layout_marginLeft="13.29dp"
+            android:layout_marginTop="15.29dp"
+            app:srcCompat="@drawable/ic_vector__5_" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="12dp"
+            app:srcCompat="@drawable/ic_vector__7_"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="166dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="34dp"
+            android:layout_marginRight="166dp"
+            app:srcCompat="@drawable/ic_carbon_play_outline" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:layout_weight="3.0"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="95dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="39dp"
+            android:background="#079527"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="119dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="129dp"
+            android:layout_marginTop="49dp"
+            android:background="#C4C4C4"
+            android:text=""
+
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="89dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="80dp"
+            android:background="#C4C4C4"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="50dp"
+            android:layout_height="11dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="106dp"
+            android:background="#C4C4C4"
+            android:text=""
+
+
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="157dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="165dp"
+            android:background="@color/white"
+            android:backgroundTint="#F0F1EF"
+            android:outlineAmbientShadowColor="#079527"
+            android:outlineSpotShadowColor="#079527"
+            android:shadowColor="#079527"
+            android:text="Try Next"
+            android:textColor="#079527"
+            android:textColorHighlight="#079527"
+            android:textColorHint="#079527"
+            android:textColorLink="#079527" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="157dp"
+            android:layout_height="39dp"
+            android:text="INSTALL"
+            android:background="#079527"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="220dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            app:srcCompat="@drawable/ellipse_1__1_"
+            android:layout_marginTop="253dp"
+            android:layout_marginLeft="57dp"
+
+            />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="64dp"
+            android:layout_height="69dp"
+            app:srcCompat="@drawable/ellipse_1__1_"
+            android:layout_marginTop="253dp"
+            android:layout_marginLeft="164dp"
+
+            />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="65dp"
+            android:layout_height="62dp"
+            app:srcCompat="@drawable/ellipse_1__1_"
+            android:layout_marginTop="253dp"
+            android:layout_marginLeft="257dp"
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="318dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:background="#C4C4C4"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="32dp"
+
+            />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="278dp"
+            android:layout_height="24dp"
+            android:text=""
+            android:background="#C4C4C4"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginRight="43dp"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
